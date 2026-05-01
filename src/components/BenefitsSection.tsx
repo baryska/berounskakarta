@@ -1,4 +1,4 @@
-import { LuSquareParking, LuDog, LuFilm, LuWaves, LuStore } from "react-icons/lu";
+import { LuSquareParking, LuFilm, LuWaves, LuStore } from "react-icons/lu";
 import { BenefitCard } from "./BenefitCard";
 
 export function BenefitsSection() {
@@ -19,20 +19,13 @@ export function BenefitsSection() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-5">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-5">
           <BenefitCard
             gradient="linear-gradient(135deg, #3C96D7, #7AC0F0)"
             shadow="0 6px 20px rgba(60,150,215,0.25)"
             icon={<LuSquareParking size={28} color="white" />}
             title="Parkování"
-            description="Parkování s úlevou pro místní obyvatele."
-          />
-          <BenefitCard
-            gradient="linear-gradient(135deg, #00C864, #2EE080)"
-            shadow="0 6px 20px rgba(0,200,100,0.25)"
-            icon={<LuDog size={28} color="white" />}
-            title="Pejsek v rodině"
-            description="Férovější (snížený) poplatek za vašeho pejska."
+            description="Konec boje o místo. Berounská karta vám zajistí zvýhodněné parkování v centru i rezidenčních zónách — jednoduše, bez byrokracie."
           />
           <BenefitCard
             gradient="linear-gradient(135deg, #FFAF4B, #FFC97A)"
@@ -53,7 +46,7 @@ export function BenefitsSection() {
             shadow="0 6px 20px rgba(255,175,75,0.2)"
             icon={<LuStore size={28} color="white" />}
             title="Místní obchody"
-            description="Slevy u místních – zapojíme berounské pekaře, restaurace a kroužky."
+            description="Slevy u místních – zapojíme berounské obchody, restaurace nebo kroužky pro děti."
           />
         </div>
       </div>
