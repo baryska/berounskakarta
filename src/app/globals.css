@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'PuffinDisplay';
+  src: url('/fonts/PuffinDisplay-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PuffinDisplay';
+  src: url('/fonts/PuffinDisplay-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme inline {
+  --font-sans: var(--font-inria-sans), sans-serif;
+  --font-display: 'PuffinDisplay', var(--font-inria-sans), sans-serif;
+  --color-primary: #3C96D7;
+  --color-primary-dark: #2A7AB8;
+  --color-primary-light: #5AADE8;
+  --color-primary-bright: #7AC0F0;
+  --color-accent: #FFAF4B;
+  --color-accent-light: #FFC97A;
+  --color-secondary: #00C864;
+  --color-secondary-light: #2EE080;
+  --color-gold: #FFD580;
+  --color-body: #161534;
+  --color-muted: #4a5568;
+  --color-subtle: #64748b;
+  --color-surface: #F7F8FA;
+  --color-border: #e2e8f0;
+}
+
+body {
+  margin: 0;
+  background: var(--color-surface);
+  color: var(--color-body);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(-4deg); }
+  50% { transform: translateY(-12px) rotate(-4deg); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.fadein { animation: fadeInUp 0.65s ease both; }
+.fadein-2 { animation: fadeInUp 0.65s 0.15s ease both; }
+.fadein-3 { animation: fadeInUp 0.65s 0.3s ease both; }
+
+.benefit-card {
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 40px rgba(60, 150, 215, 0.14);
+}

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.anthropic.com)",
+      "Read(//c/Users/SkalovaBarbora/.claude/projects/C--Users-SkalovaBarbora-Documents-berounskakarta/d5fe4689-1a88-4147-822d-078e00b5f150/tool-results/**)",
+      "Bash(tar -xzf archive.tar.gz -C extracted)",
+      "Bash(npm run *)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(file \"C:/Users/SkalovaBarbora/Documents/BSN/public/fonts\"/*.otf)",
+      "Bash(npm install *)",
+      "Bash(node *)"
+    ]
+  }
+}
