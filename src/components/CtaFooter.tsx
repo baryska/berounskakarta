@@ -32,7 +32,7 @@ export function CtaFooter() {
           proměnit ve skutečnost.
         </p>
 
-        <div className="flex flex-wrap items-center justify-center gap-4">
+        {/* <div className="flex flex-wrap items-center justify-center gap-4">
           <a
             href="https://www.berounsobe.eu"
             target="_blank"
@@ -42,7 +42,7 @@ export function CtaFooter() {
             Poznejte celý náš program
             <LuArrowRight size={18} strokeWidth={2.5} />
           </a>
-        </div>
+        </div> */}
 
         <p className="m-0 mt-8 font-display text-xl font-bold text-gold">
           Beroun má na víc!
@@ -68,12 +68,6 @@ export function CtaFooter() {
             </SocialIcon>
             <SocialIcon href="https://www.facebook.com/Berounsobeeu" label="Facebook">
               <FaFacebookF size={16} color="white" />
-            </SocialIcon>
-            <SocialIcon href="https://twitter.com/berounsobe" label="X / Twitter">
-              <FaXTwitter size={16} color="white" />
-            </SocialIcon>
-            <SocialIcon href="https://www.youtube.com/channel/UCaTXZfzLqp87bN7-mPttypw" label="YouTube">
-              <FaYoutube size={16} color="white" />
             </SocialIcon>
           </div>
 

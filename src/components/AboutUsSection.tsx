@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { LuArrowRight } from "react-icons/lu";
-import { FaInstagram } from "react-icons/fa6";
+import { FaInstagram, FaFacebookF } from "react-icons/fa6";
 
 export function AboutUsSection() {
   return (
@@ -23,7 +23,7 @@ export function AboutUsSection() {
                 Berounská karta je <span className="text-primary">náš návrh</span>
               </h2>
               <p className="m-0 mb-5 text-[1.05rem] leading-[1.8] text-muted">
-                Jsme <strong>BEROUN SOBĚ</strong> — nezávislá občanská kandidátka, která není napojena na žádnou celostátní stranu. V minulých komunálních volbách jsme získali nejvíce hlasů, přesto jsme skončili v opozici. Tu dobu jsme ale nepromarnili.
+                Jsme <strong>BEROUN SOBĚ</strong> — nezávislá občanská kandidátka, která není napojena na žádnou celostátní stranu. 
               </p>
               <p className="m-0 mb-6 text-[1.05rem] leading-[1.8] text-muted">
                 Berounská karta je jedním z konkrétních návrhů, se kterými jdeme do nadcházejících voleb. Věříme, že město má odměňovat ty, kteří v něm žijí. S vaší podporou to dotáhneme do konce.
@@ -45,7 +45,16 @@ export function AboutUsSection() {
                   className="inline-flex items-center gap-2 rounded-full border-[1.5px] border-border px-5 py-2.5 font-display text-sm font-semibold text-body transition hover:border-primary/40 hover:text-primary"
                 >
                   <FaInstagram size={16} />
-                  Sledujte nás
+                  Instagram
+                </a>
+                <a
+                  href="https://www.facebook.com/berounsobe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full border-[1.5px] border-border px-5 py-2.5 font-display text-sm font-semibold text-body transition hover:border-primary/40 hover:text-primary"
+                >
+                  <FaFacebookF size={16} />
+                  Facebook
                 </a>
               </div>
             </div>

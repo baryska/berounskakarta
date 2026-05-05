@@ -25,14 +25,14 @@ export function BenefitsSection() {
             shadow="0 6px 20px rgba(60,150,215,0.25)"
             icon={<LuSquareParking size={28} color="white" />}
             title="Parkování"
-            description="Konec boje o místo. Berounská karta vám zajistí zvýhodněné parkování v centru i rezidenčních zónách — jednoduše, bez byrokracie."
+            description="Zvýhodněné parkování v centru i rezidenčních zónách."
           />
           <BenefitCard
             gradient="linear-gradient(135deg, #FFAF4B, #FFC97A)"
             shadow="0 6px 20px rgba(255,175,75,0.25)"
             icon={<LuFilm size={28} color="white" />}
-            title="Kultura & kino"
-            description="Zlevněné vstupné do městského kina, muzeí a na další akce Městského kulturního centra."
+            title="Kultura a akce"
+            description="Zlevněné vstupné do městského kina, muzeí a na všechny městské akce."
           />
           <BenefitCard
             gradient="linear-gradient(135deg, #3C96D7, #00C864)"
