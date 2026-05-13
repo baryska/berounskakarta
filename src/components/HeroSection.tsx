@@ -66,7 +66,7 @@ export function HeroSection() {
       </nav>
 
       <div className="relative z-[2] mx-auto max-w-[1140px] px-6 pt-14 pb-[140px]">
-        <div className="grid grid-cols-1 items-center gap-15 md:grid-cols-2">
+        <div className="grid grid-cols-1 items-center gap-10 md:grid-cols-[1fr_1.4fr]">
           <div>
             <h1 className="fadein-2 m-0 mb-6 font-display text-[clamp(2.4rem,4.5vw,3.6rem)] leading-[1.1] font-extrabold text-white">
               Berounská karta.
@@ -80,13 +80,13 @@ export function HeroSection() {
 
             <p className="fadein-3 m-0 max-w-[480px] text-lg leading-[1.75] text-white/88">
               Kdo má v Berouně trvalé bydliště, měl by to poznat i v běžném
-              životě. Vymysleli jsme jednoduchou sousedskou kartu plnou slev.
+              životě. Připravili jsme jednoduchou sousedskou kartu plnou výhod.
               Uvedeme ji k životu, pokud nám dáte ve volbách svou důvěru.
             </p>
           </div>
 
           <div className="flex items-center justify-center py-10">
-            <div className="card-float w-[480px] max-w-[90vw]">
+            <div className="card-float w-full max-w-[90vw]">
               <Image
                 src="/berounska-karta.png"
                 alt="Berounská karta"
