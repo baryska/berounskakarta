@@ -49,6 +49,25 @@ export function CtaFooter() {
         </p>
       </div>
 
+      <div className="relative z-[2] mx-auto mt-14 max-w-[520px] rounded-2xl border border-white/15 bg-white/10 px-8 py-8 text-center backdrop-blur-sm">
+        <LuMail size={28} className="mx-auto mb-3 text-gold" />
+        <p className="m-0 mb-2 font-display text-lg font-bold text-white">
+          Dáme vám vědět, až bude Berounská karta k&nbsp;dispozici
+        </p>
+        <p className="m-0 mb-5 text-sm leading-relaxed text-white/80">
+          Přihlaste se k&nbsp;našemu newsletteru a budete mezi prvními, kdo se dozví novinky.
+        </p>
+        <a
+          href="https://www.berounsobe.eu/newsletter"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-full bg-gold px-7 py-3 font-display text-sm font-bold text-[#1a1a1a] transition hover:bg-gold/90"
+        >
+          Přihlásit se k newsletteru
+          <LuArrowRight size={16} strokeWidth={2.5} />
+        </a>
+      </div>
+
       <footer className="relative z-[2] mt-16 border-t border-white/15 py-10">
         <div className="mx-auto flex max-w-[1140px] flex-col items-center gap-6 px-6 md:flex-row md:justify-between">
           <div className="flex items-center gap-4">
